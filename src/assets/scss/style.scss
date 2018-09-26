@@ -1,0 +1,25 @@
+$font-text: Helvetica, sans-serif;
+$primary-color: rgb(87, 15, 87);
+$title-color: #0366d6;
+
+body{
+    background-color: #f6f8fa;
+
+    a { cursor: pointer; }
+
+    .navbar-right { margin-right: 0px !important; }
+
+    h1 {
+        color: $title-color;
+    }
+
+    .app-header{
+        background-color: $primary-color;
+
+        .app-title{ color: #fff;}
+
+        .app-link{ color: rgb(87, 15, 87);}
+    }
+
+    .app-repos{ margin-top: 20px; }
+}

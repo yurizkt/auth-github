@@ -1,0 +1,13 @@
+<div class="container-fluid app-header">
+    <div class="container">
+        <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <h2 class="navbar-brand app-title">{{ title }}</h2>
+        </div>
+        
+        <button *ngIf="!auth.isAuth()" class="btn btn-margin app-link" (click)="auth.login()">Log In</button>
+        <button *ngIf="auth.isAuth()" class="btn btn-margin app-link" (click)="auth.logout()">Log out</button>
+        
+        </nav>
+    </div>
+</div>

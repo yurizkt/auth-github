@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #f6f8fa; }
+  body a {
+    cursor: pointer; }
+  body .navbar-right {
+    margin-right: 0px !important; }
+  body h1 {
+    color: #0366d6; }
+  body .app-header {
+    background-color: #570f57; }
+    body .app-header .app-title {
+      color: #fff; }
+    body .app-header .app-link {
+      color: #570f57; }
+  body .app-repos {
+    margin-top: 20px; }
+
+/*# sourceMappingURL=styles.css.map */

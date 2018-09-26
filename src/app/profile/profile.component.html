@@ -1,0 +1,18 @@
+<div class="container app-repos">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="{{profile?.picture}}" class="img-fluid img-thumbnail" alt="avatar">
+        </div>
+        <div class="col-md-8">
+            <h1>{{ profile?.name }}</h1>
+            <p class="text-muted">| {{ profile?.nickname }}</p>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <pre class="full-profile">{{ profile | json }}</pre>
+            <p>{{ profile?.email }}</p>
+        </div>
+    </div>
+</div>
