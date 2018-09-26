@@ -1,6 +1,13 @@
-<div *ngIf="auth.isAuth;else logout">
-    <h4>You are logged in!</h4>
+<div class="jumbotron ">
+    <h2 class="display-4">Página Home</h2>
+    <p class="lead">Faça o login para acessar seus repositórios no Github.</p>
+    <hr class="my-4"> 
+    <p>Aplicação desenvolvida com Angular, Sass, Autenticação Auth0 e Bootstrap 4.</p>
+    <div class="d-flex justify-content-end">
+        <blockquote class="blockquote">
+            <p class="blockquote-footer">Yuri Zicatti</p>
+        </blockquote>
+    </div>
 </div>
-<ng-template #logout>
-    <h4>You are not logged in! Please <a (click)="auth.login()">Log In</a> to continue.</h4>
-</ng-template>
+
+
